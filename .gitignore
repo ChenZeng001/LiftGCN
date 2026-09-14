@@ -1,0 +1,15 @@
+# Keep downloaded datasets and generated artifacts out of version control.
+/datasets/
+/outputs/
+__pycache__/
+*.py[cod]
+.venv/
+/simulation/*/results/
+/simulation/connecting_lug/connecting_lug/
+/simulation/connecting_lug/connecting_lug_processed/
+/simulation/elbow_bracket/elbow_bracket/
+/simulation/elbow_bracket/elbow_bracket_processed/
+*.rpy*
+*.jnl
+*.lck
+*.log

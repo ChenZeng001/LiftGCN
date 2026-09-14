@@ -1,0 +1,5 @@
+# Training dependencies. Abaqus provides its own separate Python runtime.
+numpy>=1.26,<3
+pandas>=2.2,<3
+torch>=2.2,<3
+tqdm>=4.66,<5
