@@ -20,7 +20,7 @@ code_github_share/
 |-- models.py
 |-- dataloader.py
 |-- train.py
-|-- datasets/                         # Empty local directory for downloaded data
+|-- datasets/                         # Dataset placeholder; no data files included
 `-- simulation/
     |-- connecting_lug/
     |   |-- gsi_connecting_lug_parametric_analysis.py
@@ -32,7 +32,7 @@ code_github_share/
         `-- elbow_bracket_datasets_process.py
 ```
 
-Git does not track empty directories. The supplied local `datasets/` directory is intentionally empty; after cloning the repository, create it before extracting the downloads. `.gitignore` excludes datasets, training outputs, and simulation result directories.
+Git does not track empty directories. A `.gitkeep` placeholder preserves `datasets/` in the repository; it contains no dataset files. `.gitignore` excludes downloaded datasets, training outputs, and simulation result directories.
 
 ## Environment installation
 

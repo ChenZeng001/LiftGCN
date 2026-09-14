@@ -1,5 +1,6 @@
 # Keep downloaded datasets and generated artifacts out of version control.
-/datasets/
+/datasets/*
+!/datasets/.gitkeep
 /outputs/
 __pycache__/
 *.py[cod]
