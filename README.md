@@ -2,7 +2,7 @@
 
 Research code for **LiftGCN: Efficient Energy-Preserving Graph Learning via Joukowski Spectral Lifting for Finite Element Stress Prediction**.
 
-**Paper link:**  [arXiv](https://arxiv.org/abs/1234:123456)
+**Paper link:**  [arXiv](https://arxiv.org/abs/2609.14977)
 
 LiftGCN predicts nodal von Mises stress on finite element meshes. It uses second-order Joukowski spectral propagation with learnable per-channel coefficients shared across depth. Each propagation step combines one sparse graph multiplication with a node-wise nonlinear residual correction. The final regression layer uses the two most recent hidden states.
 
@@ -209,4 +209,11 @@ The simulation Python files also support individual analyses via `abaqus cae noG
 If you use this code or the datasets, please cite the accompanying paper. The BibTeX entry will be added when publication details are available.
 
 ```bibtex
+@misc{zeng-2026-liftgcn,
+	author = {Zeng, Chen and Wang, Qiao},
+	month = {9},
+	title = {{LiftGCN: Efficient Energy-Preserving Graph Learning via Joukowski Spectral Lifting for Finite Element Stress Prediction}},
+	year = {2026},
+	url = {https://arxiv.org/abs/2609.14977},
+}
 ```
