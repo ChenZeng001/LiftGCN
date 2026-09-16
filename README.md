@@ -57,7 +57,7 @@ The simulation scripts run separately in **Abaqus/CAE 2025**, using its bundled 
 
 ## Datasets
 
-Download the datasets from [Google Drive](https://drive.google.com/drive/folders/1dMtMiSuOPAbmmXc3cwDgcxar2HPSx64E?usp=drive_link). Neither dataset is included in this repository.
+Download the datasets from [Google Drive](https://drive.google.com/drive/folders/1dMtMiSuOPAbmmXc3cwDgcxar2HPSx64E?usp=drive_link) or [huggingface](https://huggingface.co/datasets/zengchen00001/LiftGCN_FEA_abaqus_datasets). Neither dataset is included in this repository.
 
 | Dataset | Samples | Description |
 | --- | ---: | --- |
